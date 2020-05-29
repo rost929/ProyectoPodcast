@@ -1,0 +1,42 @@
+@media (max-width:320px) {
+    #invitados {
+        position: relative;
+    }
+    #tituloInvitados {
+        padding-top: 25px;
+        padding-left: 16px;
+        padding-bottom: 14px;
+    }
+    .contenedorPadre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedorImagen,
+    .imagenInvitado {
+        text-align: center;
+        width: 320px;
+        height: 243px;
+    }
+}
+
+@media (min-width:320.1px) {
+    #invitados {
+        position: relative;
+    }
+    #tituloInvitados {
+        // padding-top: 25px;
+        padding-left: 200px;
+        padding-bottom: 36px;
+        font-size: 48px;
+    }
+    .contenedorPadre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedorImagen {
+        max-width: 32.2%;
+    }
+    .imagenInvitado {
+        height: 364px;
+    }
+}

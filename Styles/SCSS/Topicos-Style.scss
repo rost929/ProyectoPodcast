@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@media (max-width:320px) {
+    #topicos {
+        position: relative;
+    }
+    #tituloTopicos {
+        padding-top: 25px;
+        padding-left: 16px;
+        padding-bottom: 37px;
+    }
+    .contenedorPadre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedorIconoImagen {
+        width: 320px;
+        height: 130px;
+        text-align: center;
+    }
+    .contenedorTopico {
+        padding-left: 16px;
+        width: 288px;
+    }
+    .tituloTopico {
+        font-size: 24px;
+        color: #060A24;
+        text-align: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-bottom: 65px;
+    }
+}
+
+@media (min-width:320.1px) {
+    #topicos {
+        position: relative;
+    }
+    #tituloTopicos {
+        padding-top: 64px;
+        padding-left: 200px;
+        //    padding-bottom: 37px;
+        font-size: 48px;
+    }
+    .contenedorPadreTopicos {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 180px;
+        padding-top: 69px;
+    }
+    .contenedorIconoImagen {
+        order: 0;
+        width: 260px;
+        height: 130px;
+        text-align: center;
+    }
+    .contenedorTopico {
+        order: 1;
+        width: 260px;
+    }
+    .tituloTopico {
+        font-size: 24px;
+        color: #060A24;
+        text-align: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        padding-bottom: 65px;
+    }
+}
