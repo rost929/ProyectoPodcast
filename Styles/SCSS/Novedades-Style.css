@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap");
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   #novedades {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
@@ -19,7 +19,7 @@
     line-height: 42px;
   }
   .contenedorBoton {
-    padding-left: 5%;
+    padding-left: 10%;
     padding-bottom: 67px;
   }
   #botonNovedades {
@@ -28,7 +28,7 @@
     font-size: 16px;
     font-weight: 500;
     background-color: #00F3BB;
-    width: 288px;
+    width: 90%;
     height: 48px;
     line-height: 22px;
     border: none;
@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 320.1px) {
+@media (min-width: 768.1px) {
   #novedades {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
@@ -57,8 +57,9 @@
     font-family: 'IBM Plex Sans';
   }
   .contenedorBoton {
-    padding-left: 510px;
+    width: 100%;
     padding-top: 36px;
+    text-align: center;
     padding-bottom: 151px;
   }
   #botonNovedades {

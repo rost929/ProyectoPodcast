@@ -2,12 +2,12 @@
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
     // Incio primera seccion
-    @media (max-width:320px) {
+    @media (max-width:768px) {
         #infoPrincipal {
-            margin-left: 5%;
-            max-width: 288px;
+            padding-left: 5%;
         }
         .contPadreInfo {
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             margin-top: 29px;
@@ -17,9 +17,10 @@
             min-width: 186px;
         }
         .contenedor2 {
-            width: 220px;
+            display: flex;
+            width: 230px;
         }
-        h1 {
+        h2 {
             min-height: 0.8%;
             font-size: 36px;
             font-family: 'IBM Plex Sans', sans-serif;
@@ -39,22 +40,28 @@
         #thirdPart {
             width: 220px;
         }
-        span {
+        #punto {
             font-size: 36px;
             font-weight: 400;
-            color: #0000FE;
+            color: #060A24;
             line-height: 42px;
+        }
+        .contParrafo {
+            width: 90%;
         }
         p {
             font-family: 'IBM Plex Mono', monospace;
             font-size: 14px;
             color: #060A24;
             margin-top: 1em;
-            max-width: 288px;
+            // max-width: 90%;
             height: 66px;
             text-align: justify;
             line-height: 22px;
             margin-bottom: 36px;
+        }
+        #contenedorConocer {
+            padding-left: 5%;
         }
         #conocerMas {
             color: #060A24;
@@ -62,10 +69,11 @@
             font-weight: 500;
             font-size: 16px;
             background-color: #00F3BB;
-            width: 288px;
+            width: 90%;
             height: 48px;
             line-height: 22px;
             border: none;
+            margin-top: 20px;
             margin-bottom: 24px;
         }
         #conocerMas:hover {
@@ -74,26 +82,29 @@
         }
     }
     
-    @media (min-width:320.1px) {
+    @media (min-width:768.1px) {
         #infoPrincipal {
-            margin-left: 5%;
-            max-width: 288px;
+            //margin-left: 5%;
+            width: 100%;
         }
         .contPadreInfo {
             display: flex;
             position: relative;
-            width: 740px;
+            //width: 100%;
             padding-top: 160px;
-            padding-left: 200px;
+            padding-left: 13.9%;
         }
         .contenedor1 {
             display: flex;
             height: 84px;
         }
         .contenedor2 {
-            padding-left: 3%;
+            display: flex;
+            padding-left: 2%;
+            //max-width: 40%;
+            width: 60%;
         }
-        h1 {
+        h2 {
             // min-height: 0.8%;
             font-size: 64px;
             font-family: 'IBM Plex Sans', sans-serif;
@@ -101,7 +112,7 @@
             color: #060A24;
             line-height: 42px;
         }
-        span {
+        #punto {
             font-size: 64px;
             font-weight: 400;
             color: #0000FE;
@@ -118,10 +129,10 @@
             text-align: center;
         }
         #thirdPart:first-letter {
-            min-width: 66.3%;
+            width: 66.3%;
         }
         .contParrafo {
-            padding-left: 200px;
+            padding-left: 13.9%;
             width: 628px;
             height: 48px;
         }
@@ -146,10 +157,19 @@
             border: none;
             margin-top: 56px;
             margin-bottom: 0;
-            margin-left: 200px;
+            margin-left: 13.9%;
         }
         #conocerMas:hover {
             color: white;
             background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        }
+    }
+    
+    @media (min-width:768.1px) and (max-width:890px) {
+        .contPadreInfo {
+            padding-left: 6%;
+        }
+        .contParrafo {
+            padding-left: 6%;
         }
     }

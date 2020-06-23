@@ -1,15 +1,13 @@
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   #contenedorDerechos {
-    width: 227px;
     height: 22px;
     margin: 0;
     padding-top: 24px;
-    padding-left: 14.7%;
     padding-bottom: 16px;
   }
   #derechos {
-    width: 227px;
     height: 22px;
+    text-align: center;
     padding: 0;
     margin: 0;
   }
@@ -19,41 +17,8 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 227px;
-    padding-left: 14.7%;
-    padding-bottom: 31px;
-  }
-}
-
-@media (min-width: 320.1px) {
-  footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #contenedorDerechos {
-    width: 269px;
-    height: 28px;
-    margin: 0;
-    padding-top: 36px;
-    padding-left: 100px;
-    padding-bottom: 31px;
-  }
-  #derechos {
-    width: 269px;
-    height: 28px;
-    padding: 0;
-    margin: 0;
-  }
-  .contenedorIconos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    width: 227px;
-    padding-top: 36px;
-    padding-left: 51.3%;
+    width: 79.9%;
+    padding-left: 12%;
     padding-bottom: 31px;
   }
   i {
@@ -61,6 +26,55 @@
     height: 28px;
     font-size: 18px;
     color: #060A24;
+  }
+}
+
+@media (min-width: 768.1px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #contenedorDerechos {
+    width: 25.6%;
+    height: 28px;
+    margin: 0;
+    padding-top: 36px;
+    padding-left: 6.9%;
+    padding-bottom: 31px;
+  }
+  #derechos {
+    width: 269px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+  }
+  .contenedorIconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 74.4%;
+    padding-top: 36px;
+    padding-left: 43.4%;
+    padding-right: 6.9%;
+    padding-bottom: 31px;
+  }
+  i {
+    width: 18px;
+    height: 28px;
+    font-size: 18px;
+    color: #060A24;
+  }
+  .iconoFooter {
+    padding-left: 8%;
+  }
+}
+
+@media (min-width: 768.1px) and (max-width: 860px) {
+  .contenedorIconos {
+    padding-left: 35%;
   }
 }
 /*# sourceMappingURL=Footer-Style.css.map */

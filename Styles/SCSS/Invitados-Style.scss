@@ -1,42 +1,54 @@
-@media (max-width:320px) {
-    #invitados {
-        position: relative;
+    @media (max-width:768px) {
+        #invitados {
+            position: relative;
+        }
+        #tituloInvitados {
+            padding-top: 10px;
+            padding-left: 5%;
+            padding-bottom: 14px;
+        }
+        .contenedorPadre {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contenedorImagen {
+            width: 100%;
+        }
+        .imagenInvitado {
+            text-align: center;
+            width: 100%;
+            height: 243px;
+        }
     }
-    #tituloInvitados {
-        padding-top: 25px;
-        padding-left: 16px;
-        padding-bottom: 14px;
+    
+    @media (min-width:425.1px) and (max-width:768px) {
+        .imagenInvitado {
+            text-align: center;
+            width: 100%;
+            height: 400px;
+        }
     }
-    .contenedorPadre {
-        display: flex;
-        flex-wrap: wrap;
+    
+    @media (min-width: 768.1px) {
+        #invitados {
+            position: relative;
+        }
+        #tituloInvitados {
+            // padding-top: 25px;
+            padding-left: 200px;
+            padding-bottom: 36px;
+            font-size: 48px;
+        }
+        .contenedorPadre {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contenedorImagen {
+            width: 33.33%;
+        }
+        .imagenInvitado {
+            width: 100%;
+            height: 364px;
+        }
     }
-    .contenedorImagen,
-    .imagenInvitado {
-        text-align: center;
-        width: 320px;
-        height: 243px;
-    }
-}
-
-@media (min-width:320.1px) {
-    #invitados {
-        position: relative;
-    }
-    #tituloInvitados {
-        // padding-top: 25px;
-        padding-left: 200px;
-        padding-bottom: 36px;
-        font-size: 48px;
-    }
-    .contenedorPadre {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .contenedorImagen {
-        max-width: 32.2%;
-    }
-    .imagenInvitado {
-        height: 364px;
-    }
-}

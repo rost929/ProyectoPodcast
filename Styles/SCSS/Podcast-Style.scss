@@ -1,22 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
-@media(max-width:320px) {
+@media(max-width:768px) {
     #seccionPodcast {
         position: relative;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         width: 100%;
         clip-path: polygon( 0 3%, 100% 0, 100% 97%, 0 100%);
-        -webkit-transition: all 500ms ease-out;
-        -moz-transition: all 500ms ease-out;
-        transition: all 500ms ease-out;
-    }
-    .contentDivider1 .divider {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 40px;
-        transform: rotate(-180deg);
     }
     #episodios {
         position: relative;
@@ -37,25 +25,20 @@
         flex-wrap: wrap;
     }
     .contenedorPodcast {
-        min-width: 298px;
+        width: 100%;
         height: 225px;
         margin-bottom: 11px;
-        margin-left: 3.5%;
+        margin-left: 5%;
+    }
+    .podcast {
+        width: 93.1%;
     }
     #cont4 {
         margin-bottom: 143.5px;
     }
-    .contentDivider2 .divider {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 40px;
-    }
 }
 
-@media(min-width:320.1px) {
+@media(min-width:768.1px) {
     #seccionPodcast {
         position: relative;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
@@ -68,15 +51,6 @@
     }
     #seccionPodcast:target {
         height: 100%;
-    }
-    .contentDivider1 .divider {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 40px;
-        transform: rotate(-180deg);
     }
     #episodios {
         position: relative;
@@ -98,20 +72,13 @@
         margin-left: 100px;
     }
     .contenedorPodcast {
-        width: 500px;
+        width: 75%;
+        max-width: 500px;
         height: 225px;
         margin-bottom: 72px;
         margin-left: 3.5%;
     }
     #cont4 {
         margin-bottom: 220px;
-    }
-    .contentDivider2 .divider {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 40px;
     }
 }
